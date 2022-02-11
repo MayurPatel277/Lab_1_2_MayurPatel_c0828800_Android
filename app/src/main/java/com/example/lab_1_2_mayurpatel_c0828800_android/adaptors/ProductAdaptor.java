@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -23,6 +24,7 @@ import java.util.List;
 public class ProductAdaptor extends RecyclerView.Adapter<ProductAdaptor.MyViewHolder> {
     private Context context;
     private List<Product> mProductList;
+
 
     public ProductAdaptor(Context context) {
         this.context = context;
